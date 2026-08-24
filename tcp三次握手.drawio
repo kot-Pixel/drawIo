@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="BfvPw12P-2cD8ezGrOFm">
-    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="158" dy="83" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uaCzbQVXXupdsY1uMV98-4" parent="1" style="swimlane;startSize=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=3;" value="fan" vertex="1">
+        <mxCell id="uaCzbQVXXupdsY1uMV98-4" parent="1" style="swimlane;startSize=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=3;" value="" vertex="1">
           <mxGeometry height="320" width="700" x="240" y="110" as="geometry" />
         </mxCell>
         <mxCell id="uaCzbQVXXupdsY1uMV98-6" parent="uaCzbQVXXupdsY1uMV98-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="客户端" vertex="1">
