@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="uCJrW90uxJmRv2wCoa4b">
-    <mxGraphModel dx="1664" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,13 +10,21 @@
             <mxPoint x="826" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jkj36rjtUxgme0ADVUU4-18" connectable="0" parent="Jkj36rjtUxgme0ADVUU4-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Established" vertex="1">
-          <mxGeometry relative="1" x="-0.0889" y="3" as="geometry">
+        <mxCell id="Jkj36rjtUxgme0ADVUU4-23" connectable="0" parent="Jkj36rjtUxgme0ADVUU4-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="push establish" vertex="1">
+          <mxGeometry relative="1" x="-0.0444" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jkj36rjtUxgme0ADVUU4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Queue(SYNC_RCVD)" vertex="1">
           <mxGeometry height="50" width="190" x="740" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Jkj36rjtUxgme0ADVUU4-20" edge="1" parent="1" source="Jkj36rjtUxgme0ADVUU4-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Jkj36rjtUxgme0ADVUU4-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jkj36rjtUxgme0ADVUU4-21" connectable="0" parent="Jkj36rjtUxgme0ADVUU4-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pop" vertex="1">
+          <mxGeometry relative="1" x="0.0621" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Jkj36rjtUxgme0ADVUU4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Queue(Established)" vertex="1">
           <mxGeometry height="50" width="190" x="740" y="460" as="geometry" />
@@ -47,7 +55,7 @@
             <mxPoint x="520" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jkj36rjtUxgme0ADVUU4-11" connectable="0" parent="Jkj36rjtUxgme0ADVUU4-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SYN_RCVD" vertex="1">
+        <mxCell id="Jkj36rjtUxgme0ADVUU4-11" connectable="0" parent="Jkj36rjtUxgme0ADVUU4-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="push sync_rcvd" vertex="1">
           <mxGeometry relative="1" x="-0.1672" y="2" as="geometry">
             <mxPoint x="34" y="-8" as="offset" />
           </mxGeometry>
@@ -79,6 +87,9 @@
             <mxPoint x="470" y="470" as="sourcePoint" />
             <mxPoint x="520" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Jkj36rjtUxgme0ADVUU4-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="accept&amp;nbsp; socket" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
